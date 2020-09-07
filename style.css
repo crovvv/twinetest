@@ -1,8 +1,10 @@
 
-
 .wrapper{
     width: 70%;
-    margin: 50em auto;
     text-align: center;
-    max-height: 800px;
+    position: absolute;
+    top: 42%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
 }

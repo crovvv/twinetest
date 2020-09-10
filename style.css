@@ -11,7 +11,7 @@ h1{
  button{
     border: 2px solid white;
     background-color: black;
-    padding: 15px 30px;
+    padding: 35px 100px;
     border-radius: 25px;
     transition-duration: 0.4s;
     color: white;
@@ -50,3 +50,26 @@ button:hover{
     justify-content: center;
     border-radius: 100%;
 }
+
+.blinking-cursor{
+    -webkit-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@-webkit-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
+
+  @keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
